@@ -67,6 +67,9 @@ for (const price of prices) {
   total += price;
 }
 console.log(`Total price: $${total}`);
+//imp
+
+
 
 // Example 3: Loop through string characters
 console.log("\n=== FOR...OF LOOP - Example 3: String Characters ===");
@@ -95,6 +98,7 @@ const students = [
 for (const student of students) {
   console.log(`${student.name} scored ${student.grade}`);
 }
+//imp
 
 // Example 6: Transform array elements
 console.log("\n=== FOR...OF LOOP - Example 6: Transform Data ===");
@@ -106,7 +110,7 @@ for (const celsius of temperatures) {
 }
 console.log("Celsius:", temperatures);
 console.log("Fahrenheit:", fahrenheit);
-
+//imp
 
 // ============================================
 // WHILE LOOP - 6 Examples (Simple to Intermediate)
@@ -148,6 +152,8 @@ while (index < tasks.length && tasks[index] !== "stop") {
   index++;
 }
 console.log("Stopped!");
+//imp
+
 
 // Example 5: User attempts simulation
 console.log("\n=== WHILE LOOP - Example 5: Attempts Simulation ===");
